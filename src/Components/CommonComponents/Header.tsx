@@ -1,8 +1,10 @@
 import React from 'react'
 import menuItems, { MenuItem } from './MenuItems'
+import '../../Stylings/Header.css'
 
 function Header() {
   return (
+    <>
     <div className='header' >
 
      {/* container for the logo */}
@@ -23,8 +25,10 @@ function Header() {
         </ul>
       </div>
 
-      <hr/>
     </div>
+
+    <hr/>
+    </>
   )
 }
 

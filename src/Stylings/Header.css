@@ -1,0 +1,41 @@
+/* styles for the entire header container */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+/* horizontal line styling bellow the header */
+hr {
+    border-top: 1px solid;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* styling for the clickble menu items */
+.menu-items ul {
+    list-style: none;
+    display: flex;
+}
+
+/* removing link decorations */
+.menu-items a{
+    text-decoration: none;
+}
+
+/* adding interactive responses on cursor movement */
+.menu-items li{
+    margin-right: 20px;
+    cursor: pointer;
+    transition: text-decoreation 0.2s;
+}
+/* on hover the link is unerlined */
+.menu-items li:hover{
+    text-decoration: underline;
+}
+
+
+
