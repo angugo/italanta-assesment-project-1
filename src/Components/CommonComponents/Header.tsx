@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import menuItems from '../Props/HeaderMenuItems'
 import '../../Stylings/Header.css'
 
@@ -17,9 +18,9 @@ function Header() {
         <ul>
           {menuItems.map((menuItem, index) => (
             <li key={index}>
-              <a className={menuItem.cName} href={menuItem.url}>
+              <Link className={menuItem.cName} to={menuItem.url}>
                 {menuItem.title}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
