@@ -1,18 +1,16 @@
 /* footer body styling */
 .footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
     background-color: black;
     color: white;
-    padding: 20px;
     border-top-right-radius: 10%;
     border-top-left-radius: 10%;
-}
-
-/* horizontal line styling bellow the header */
-.footer hr {
-    border-top: 1px solid;
-    margin-top: 100px;
-    display: block;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 10%;
 }
 
 /* footer headers styling */
