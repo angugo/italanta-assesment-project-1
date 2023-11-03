@@ -1,10 +1,16 @@
 import React from 'react'
-import footerItems from '../Props/FooterMenuItems'
+import footerItems, { FooterMenuItems } from '../Props/FooterMenuItems'
 import '../../Stylings/Footer.css'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className='footer'>
+      {footerItems.map((item: FooterMenuItems, index: number) => (
+        <div key={index} className='menu-column'>
+          <h3>{item.title}</h3>
+        </div>
+      ))}
+    </div>
   )
 }
 
