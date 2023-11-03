@@ -51,3 +51,24 @@
     /* Add margin at the bottom for spacing */
     margin-bottom: 80px;
 }
+
+.values-section img {
+    max-height: 90px;
+    width: auto;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.values-section h3 {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.values-section p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
