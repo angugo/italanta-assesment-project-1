@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import menuItems from '../Props/HeaderMenuItems'
+import logo from '../../assets/images/logo.svg'
 import '../../Stylings/Header.css'
 
 function Header() {
@@ -10,7 +11,7 @@ function Header() {
 
      {/* container for the logo */}
       <div id='logo'>
-        <img src='' alt='logo' />
+        <img src={logo} alt='logo' />
       </div>
 
       {/* container for all the menu items in the nav header */}
