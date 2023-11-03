@@ -2,7 +2,6 @@
 export interface FooterMenuItems {
     title: string;
     content: string[];
-    contentIndex?: number;
 }
 
 // footer menu items object to be exported

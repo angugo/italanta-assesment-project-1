@@ -13,7 +13,7 @@ function Footer() {
           <h3>{item.title}</h3>
           <ul>
             {/* arranges the content arrays in a list order under the headers on the dom */}
-            {item.content.map((content: FooterMenuItems, contentIndex: FooterMenuItems) => (
+            {item.content.map((content: any, contentIndex: number) => (
               <li key={contentIndex}>{content}</li>
             ))}
           </ul>
