@@ -4,7 +4,11 @@ import Footer from '../CommonComponents/Footer'
 
 function Invest() {
   return (
-    <div>Invest</div>
+    <div>
+      <Header />
+      Invest
+      <Footer />
+    </div>
   )
 }
 

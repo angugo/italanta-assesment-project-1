@@ -6,6 +6,8 @@ function About() {
   return (
     <div>
       <Header />
+      About
+      <Footer />
     </div>
   )
 }

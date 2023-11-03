@@ -4,7 +4,11 @@ import Footer from '../CommonComponents/Footer'
 
 function SocialImpact() {
   return (
-    <div>SocialImpact</div>
+    <div>
+      <Header />
+      Social Impact
+      <Footer />
+    </div>
   )
 }
 
