@@ -8,6 +8,11 @@
     margin-top: 5%;
 }
 
+#logo  {
+    text-align: center;
+    padding: 20px;
+}
+
 /* horizontal line styling bellow the header */
 hr {
     border-top: 1px solid;
