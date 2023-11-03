@@ -1,18 +1,12 @@
 import React from 'react';
-import Header from './Components/CommonComponents/Header';
-import Footer from './Components/CommonComponents/Footer';
-import About from "./Components/Pages/About"
-import Invest from './Components/Pages/Invest'
-import SocialImpact from './Components/Pages/SocialImpact';
+import AppRoutes from './Components/Routes';
+import { BrowserRouter as Router } from 'react-router-dom'; 
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-
-      <Footer />
-        
-    </div>
+    <Router>
+      <AppRoutes />
+    </Router>
   );
 }
 
