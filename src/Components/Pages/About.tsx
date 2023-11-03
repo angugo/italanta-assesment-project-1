@@ -8,7 +8,7 @@ function About() {
     <div>
       <Header />
       <Hero />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

@@ -9,9 +9,9 @@ function Hero() {
         <img alt={aboutPageHeroProps.imgAlt} src={aboutPageHeroProps.heroImg} />
 
         <div className="hero-text">
-            <h4>{aboutPageHeroProps.textOne}</h4>
-            <h2>{aboutPageHeroProps.textTwo}</h2>
-            <h3>{aboutPageHeroProps.textThree}</h3>
+            <h2>{aboutPageHeroProps.textOne}</h2>
+            <h1>{aboutPageHeroProps.textTwo}</h1>
+            <p>{aboutPageHeroProps.textThree}</p>
         </div>
     </div>
   )
