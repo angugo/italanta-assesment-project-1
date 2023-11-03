@@ -1,6 +1,6 @@
 /* footer body styling */
 .footer{
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     display: flex;

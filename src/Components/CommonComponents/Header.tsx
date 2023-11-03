@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import menuItems from '../Props/HeaderMenuItems'
 import logo from '../../assets/images/logo.svg'
@@ -28,8 +28,6 @@ function Header() {
       </div>
 
     </div>
-
-    <hr/>
     </>
   )
 }
