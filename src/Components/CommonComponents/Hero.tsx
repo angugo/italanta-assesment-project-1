@@ -1,4 +1,5 @@
 import React from 'react'
+import aboutPageHeroProps from '../Props/AboutPageHeroProps'
 import '../../Stylings/Hero.css'
 
 function Hero() {
