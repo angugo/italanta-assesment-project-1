@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../Stylings/Footer.css'
 
 function Footer() {
   return (

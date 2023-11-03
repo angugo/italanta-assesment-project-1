@@ -11,7 +11,7 @@ incase theres need for an extra menu item the following structure is followed
  */
 const menuItems: MenuItem[]=[
     {
-        url: '/about',
+        url: '/',
         title: 'About',
         cName: 'menuItem'
     },
