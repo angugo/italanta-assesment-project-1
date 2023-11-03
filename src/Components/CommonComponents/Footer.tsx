@@ -5,6 +5,7 @@ import '../../Stylings/Footer.css'
 function Footer() {
   return (
     <div className='footer'>
+
       {footerItems.map((item: FooterMenuItems, index: number) => (
         <div key={index} className='menu-column'>
 

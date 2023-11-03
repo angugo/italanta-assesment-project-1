@@ -1,7 +1,5 @@
-import { type } from "os";
-
 // interphase to govern the types in the objects being used
-interface FooterMenuItems {
+export interface FooterMenuItems {
     title: string;
     content: string[];
     contentIndex?: number;
@@ -55,4 +53,4 @@ const footerItems: FooterMenuItems[] = [
     },
 ]
 
-export default footerItems
+export default footerItems;
