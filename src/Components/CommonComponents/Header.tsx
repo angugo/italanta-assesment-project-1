@@ -1,5 +1,5 @@
 import React from 'react'
-import menuItems, { MenuItem } from '../Props/HeaderMenuItems'
+import menuItems from '../Props/HeaderMenuItems'
 import '../../Stylings/Header.css'
 
 function Header() {

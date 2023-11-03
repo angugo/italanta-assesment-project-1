@@ -50,6 +50,6 @@ const footerItems: FooterMenuItems[] = [
             'Cookie preferences'
         ],
     },
-
-    
 ]
+
+export default footerItems
