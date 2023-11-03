@@ -1,0 +1,35 @@
+.about-us {
+    opacity: 1;
+    transform: translateZ(0);
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+    font-family: var(--elewa-group-website-dmsans-regular);
+    font-weight: 100;
+    font-size: 2rem;
+    margin-bottom: 80px;
+}
+
+.about-us h2 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.paragraphs {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    font-family: var(--elewa-group-website-dmsans-regular);
+    font-weight: 100;
+    font-size: 2rem;
+    margin-bottom: 80px;
+}

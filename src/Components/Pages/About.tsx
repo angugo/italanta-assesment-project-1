@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../CommonComponents/Hero'
 import Header from '../CommonComponents/Header'
 import Footer from '../CommonComponents/Footer'
+import '../../Stylings/About.css'
 
 function About() {
   return (
@@ -10,7 +11,7 @@ function About() {
       <Hero />
 
       <div className="about-us">
-        <h1>We Care!</h1>
+        <h2>We Care!</h2>
         <div className="paragraphs">
           <p>Elewa is a mission-driven organization. We make use of our cooperative and shared culture to drive the needle for the development of people and environment. We care about our growth, but also care deeply about the context surrounding us.</p>
 
