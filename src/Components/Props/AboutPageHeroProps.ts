@@ -11,7 +11,7 @@ export interface AboutPageHeroProps {
 
 // the actual data object to be exported
 export const aboutPageHeroProps: AboutPageHeroProps = {
-    cName: 'about-hero',
+    cName: 'hero-section',
     heroImg: heroImage,
     textOne: 'HOW TO RECOGNIZE AN ELEWA MEMBER',
     textTwo: 'Dependable, Creative, Supportive, Open Minded and Fun*',

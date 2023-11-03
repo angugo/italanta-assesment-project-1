@@ -4,9 +4,9 @@ import '../../Stylings/Hero.css'
 
 function Hero() {
   return (
-    
+
     <div className={aboutPageHeroProps.cName}>
-        <img alt='The team' src={aboutPageHeroProps.heroImg} />
+        <img alt={aboutPageHeroProps.imgAlt} src={aboutPageHeroProps.heroImg} />
 
         <div className="hero-text">
             <h4>{aboutPageHeroProps.textOne}</h4>
