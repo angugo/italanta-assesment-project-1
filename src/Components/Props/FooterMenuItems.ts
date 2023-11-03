@@ -1,7 +1,10 @@
+import { type } from "os";
+
 // interphase to govern the types in the objects being used
 interface FooterMenuItems {
     title: string;
     content: string[];
+    contentIndex?: number;
 }
 
 // footer menu items object to be exported
