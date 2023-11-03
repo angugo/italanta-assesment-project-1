@@ -1,10 +1,19 @@
 import React from 'react'
-import aboutPageHeroProps from '../Props/AboutPageHeroProps'
+import { aboutPageHeroProps } from '../Props/AboutPageHeroProps'
 import '../../Stylings/Hero.css'
 
 function Hero() {
   return (
-    <div>Hero</div>
+    
+    <div className={aboutPageHeroProps.cName}>
+        <img alt='The team' src={aboutPageHeroProps.heroImg} />
+
+        <div className="hero-text">
+            <h4>{aboutPageHeroProps.textOne}</h4>
+            <h2>{aboutPageHeroProps.textTwo}</h2>
+            <h3>{aboutPageHeroProps.textThree}</h3>
+        </div>
+    </div>
   )
 }
 

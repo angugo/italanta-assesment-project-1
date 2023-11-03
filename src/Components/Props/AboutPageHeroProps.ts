@@ -6,6 +6,7 @@ export interface AboutPageHeroProps {
     textOne: string;
     textTwo: string;
     textThree: string;
+    imgAlt: string;
 }
 
 // the actual data object to be exported
@@ -14,5 +15,6 @@ export const aboutPageHeroProps: AboutPageHeroProps = {
     heroImg: heroImage,
     textOne: 'HOW TO RECOGNIZE AN ELEWA MEMBER',
     textTwo: 'Dependable, Creative, Supportive, Open Minded and Fun*',
-    textThree: '*SERIOUS WHEN IT MATTERS'
+    textThree: '*SERIOUS WHEN IT MATTERS',
+    imgAlt: 'The team'
 }
