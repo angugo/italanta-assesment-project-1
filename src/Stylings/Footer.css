@@ -1,12 +1,27 @@
 /* footer body styling */
 .footer{
+    display: flex;
     background-color: black;
     color: white;
     padding: 20px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
 }
 
 /* horizontal line styling bellow the header */
 .footer hr {
     border-top: 1px solid;
     margin-top: 100px;
+    display: block;
+}
+
+/* footer headers styling */
+.footer h3{
+    margin-bottom: 10px;
+}
+
+/* individual menu styling */
+.footer ul {
+    list-style-type: none;
+    margin-left: -40px;
 }
